@@ -9,6 +9,7 @@ public class ClassA {
     @MyAnnotation(value = 1, name = "Hello")
     public void methodA() {
         ClassB b = new ClassB();
+        b.doSomething();
         System.out.println(b.numberB);
     }
 
