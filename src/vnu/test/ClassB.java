@@ -21,6 +21,6 @@ public class ClassB implements InterfaceI {
 
     @Override
     public void doSomething() {
-
+        System.out.println("Calling doSomething method of ClassB");
     }
 }
