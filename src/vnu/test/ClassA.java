@@ -16,6 +16,7 @@ public class ClassA {
         ClassB b = new ClassB();
         System.out.println(b.numberB);
         b.doSomething();
+        System.out.println("Modifiled methodB");
     }
 
     public void methodC() {
