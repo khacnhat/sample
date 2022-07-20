@@ -6,4 +6,8 @@ public class ClassD {
         classC.methodE();
         System.out.println("Changed");
     }
+
+    public void methodH() {
+        System.out.println("Added");
+    }
 }
